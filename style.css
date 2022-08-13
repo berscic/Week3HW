@@ -8,6 +8,32 @@ body {
   margin-top: 100px;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    flex: none;
+  }
+  .project-link {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+    flex: none;
+  }
+}
+
 h1,
 h2,
 h3 {
